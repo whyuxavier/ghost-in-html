@@ -959,8 +959,7 @@ function info(){
   <div class="row">
     <a class="gh" href="https://github.com/whyuxavier/ghost-in-html" target="_blank" rel="noopener"><svg><use href="#i-star"/></svg>GitHub</a>
     <button class="btn danger small" id="wipe">Почати спочатку</button>
-  </div>
-  <p style="margin:12px 0 0;font-size:12px;opacity:.65">Сайт створено за допомогою ШІ.</p>`);
+  </div>`);
   $('#wipe').onclick=()=>{if(confirm('Стерти весь прогрес?')){S={rooms:{},sound:S.sound};save();closeModal();show('home');homeLbl()}};
 }
 $('#infoBtn').onclick=info; $('#howBtn').onclick=info;
